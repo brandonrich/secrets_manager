@@ -4,6 +4,7 @@ set -eu
 
 function usage() {
     echo "Usage: delete_secrets.sh PREFIX"
+    echo "Displays and confirms secrets to be deleted before taking action."
 }
 
 if [[ $# -ne 1 ]]; then
